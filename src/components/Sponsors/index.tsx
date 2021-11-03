@@ -1,4 +1,4 @@
-import { Container } from '..'
+import { Container } from 'components'
 
 import Sponsor1 from 'assets/img/sponsors1.png'
 import Sponsor2 from 'assets/img/sponsors2.png'

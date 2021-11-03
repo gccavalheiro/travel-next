@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import theme from 'styles/theme/theme'
-import { Grid } from '..'
+import { Grid } from 'components'
 
 export const Section = styled.section`
   padding: 2.5rem 0;

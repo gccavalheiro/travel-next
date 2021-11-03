@@ -1,4 +1,4 @@
-import { Container } from '..'
+import { Container } from 'components'
 
 import * as S from './styles'
 

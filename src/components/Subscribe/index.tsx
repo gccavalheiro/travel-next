@@ -1,13 +1,7 @@
-import React, { useCallback, useEffect, useState } from 'react'
-import { Container } from '..'
+import React, { useState } from 'react'
+import { Container } from 'components'
 
 import * as S from './styles'
-
-interface FormStateProps {
-  values: {
-    email: string
-  }
-}
 
 export const Subscribe = () => {
   const [inputEmail, setInputEmail] = useState('')

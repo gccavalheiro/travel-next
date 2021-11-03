@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react'
 
-import Button from '.'
+import { Button } from 'components'
 
 export default {
   title: 'Shared/Components/Button',
@@ -18,4 +18,6 @@ export default {
   },
 } as Meta
 
-export const Basic: Story = (args) => <Button {...args} />
+export const Basic: Story = (args) => (
+  <Button {...args}>{args.children} </Button>
+)

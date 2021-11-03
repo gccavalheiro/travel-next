@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import theme from '../../styles/theme/theme'
+import theme from 'styles/theme/theme'
 
 interface IContainerProps {
   dFlex?: boolean

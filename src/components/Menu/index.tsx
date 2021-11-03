@@ -1,6 +1,7 @@
-import * as S from './styles'
-import { Container } from '../Container'
 import { useState } from 'react'
+import { Container } from 'components'
+
+import * as S from './styles'
 
 interface IMenuItemsProps {
   title: string

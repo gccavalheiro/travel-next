@@ -1,5 +1,6 @@
-import * as S from './styles'
 import { ReactNode } from 'react'
+
+import * as S from './styles'
 
 interface IButtonProps {
   children: ReactNode

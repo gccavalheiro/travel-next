@@ -1,6 +1,7 @@
-import * as S from './styles'
-import { Menu } from '../Menu'
 import { useCallback, useEffect, useState } from 'react'
+import { Menu } from 'components'
+
+import * as S from './styles'
 
 export const Header = () => {
   const scrollY = 100

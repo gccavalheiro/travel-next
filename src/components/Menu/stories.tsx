@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react'
-import Menu from '.'
+import { Menu } from '.'
 
 export default {
   title: 'Menu',
