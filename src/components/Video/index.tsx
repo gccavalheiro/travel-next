@@ -51,6 +51,7 @@ export const Video = ({ title, description, src, ...rest }: IVideoProps) => {
             <S.Title>{title}</S.Title>
             <S.Description>{description}</S.Description>
           </S.Content>
+
           <S.VideoContent>
             <S.VideoFile ref={videoRef}>
               <S.VideoSource src={src} type="video/mp4" />

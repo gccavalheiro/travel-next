@@ -113,8 +113,8 @@ export function Discover() {
       <Video
         src="/video/video.mp4"
         title="Video Tour"
-        description="Saiba mais com nossos vídeos dos lugares mais bonitos e agradáveis
-              para você e sua família."
+        description="Saiba mais com nossos vídeos dos lugares mais bonitos
+        e agradáveis para você e sua família."
       />
     </>
   )

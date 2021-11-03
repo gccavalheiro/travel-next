@@ -8,7 +8,7 @@ import ImagePlace5 from 'assets/img/place5.jpg'
 
 import * as S from './styles'
 
-interface CardItem {
+interface ICardItemProps {
   image: string
   rating: string
   title: string
@@ -16,7 +16,7 @@ interface CardItem {
   price: string
 }
 
-const CardItems: CardItem[] = [
+const CardItems: ICardItemProps[] = [
   {
     image: ImagePlace1.src,
     rating: '4,8',

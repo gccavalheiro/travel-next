@@ -31,18 +31,18 @@ const SocialItems: ISocialProps[] = [
   },
 ]
 
-interface MenuItem {
+interface IMenuItemProps {
   title: string
   url: string
   alt?: string
 }
 
-interface MenuCategories {
+interface IMenuCategoriesProps {
   title: string
-  menuItem: MenuItem[]
+  menuItem: IMenuItemProps[]
 }
 
-const MenuList: MenuCategories[] = [
+const MenuList: IMenuCategoriesProps[] = [
   {
     title: 'Sobre',
     menuItem: [
@@ -146,6 +146,7 @@ export const Footer = () => {
               </S.Info>
             ))}
           </S.Content>
+
           <S.Rights>
             <S.Copy>&#169; 2021. Todos os direitos reservados.</S.Copy>
             <S.Terms>

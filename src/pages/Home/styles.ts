@@ -4,7 +4,7 @@ import theme from 'styles/theme/theme'
 
 export const Section = styled.section``
 
-export const Container = styled(Grid)`
+export const GridContainer = styled(Grid)`
   position: relative;
   height: calc(100vh - ${theme.header.height});
   align-content: center;

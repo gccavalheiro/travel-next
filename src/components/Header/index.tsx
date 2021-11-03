@@ -7,7 +7,7 @@ export const Header = () => {
   const scrollY = 100
   const [showBackground, setShowBackground] = useState<boolean>(false)
 
-  const handleNavigation = useCallback(() => {
+  function handleNavigation() {
     const scrollTop = window.document.scrollingElement?.scrollTop
 
     if (scrollTop && scrollTop > scrollY) {
@@ -15,7 +15,7 @@ export const Header = () => {
     } else {
       setShowBackground(false)
     }
-  }, [])
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', () => handleNavigation())
