@@ -132,7 +132,7 @@ export const Footer = () => {
             </S.Info>
 
             {MenuList.map((menuList, index) => (
-              <S.Info>
+              <S.Info key={index}>
                 <S.Subtitle key={index}>{menuList.title}</S.Subtitle>
                 <S.List>
                   {menuList.menuItem.map((menuItem) => (
