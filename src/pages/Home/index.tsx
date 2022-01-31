@@ -46,10 +46,11 @@ export function Home() {
           </S.Content>
 
           <S.SocialContainer>
-            {SocialIcons.map((socialIcon) => (
+            {SocialIcons.map((socialIcon, index) => (
               <S.SocialItem
                 href={socialIcon.url || ''}
-                target={socialIcon.target}>
+                target={socialIcon.target}
+                key={`social-${index}`}>
                 <S.SocialIcon className={socialIcon.icon} />
               </S.SocialItem>
             ))}
